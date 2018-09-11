@@ -1,0 +1,23 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+int i,t,d,n,s=0;
+cout<<"Enter test cases = ";
+cin>>t;
+for(i=1;i<=t;i++)
+{
+s=0;
+cout<<"Enter a number=";
+cin>>n;
+while(n!=0)
+{
+d=n%10;
+n=n/10;
+s=s+d;
+}
+cout<<"sum="<<s;
+}
+getch();
+}
+
